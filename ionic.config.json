@@ -1,0 +1,7 @@
+{
+  "name": "Responsi2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
