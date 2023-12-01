@@ -17,8 +17,8 @@
     <ion-item>
       <ion-label>
         {{item.jenis}}
-        {{item.total}}
-        {{item.deskripsi}}
+        <p>{{item.total}}</p>
+        <p>{{item.deskripsi}}</p>
       </ion-label>
       <ion-button color="danger" slot="end" (click)="hapusKeuangan(item.id)">
         Hapus
@@ -48,7 +48,7 @@
       <ion-content class="ion-padding">
         <ion-item>
           <ion-input
-            label="Jenis Transaksi"
+            label="Pemasukan / Pengeluaran"
             labelPlacement="floating"
             required
             [(ngModel)]="jenis"
